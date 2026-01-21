@@ -1,0 +1,40 @@
+.topper{
+    text-align: center;
+}
+
+
+.quote {
+    font-size: 10pt;
+    font-weight: normal;
+}
+
+.parties-list{
+    list-style: none;
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.parties-list :hover{
+    color: blue;
+}
+
+.main-layout {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.main-layout section {
+    flex: 1;
+}
+
+.main-layout section:first-child{
+    flex: .4;
+}
+.main-layout section:last-child{
+    flex: .6;
+}
+ul {
+    
+}
